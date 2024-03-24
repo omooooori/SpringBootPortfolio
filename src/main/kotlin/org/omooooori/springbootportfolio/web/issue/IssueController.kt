@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping
 
 @Controller
 class IssueController(
-    private val issueService: IssueService = IssueService()
+    private val issueService: IssueService
 ) {
-
-
     // GET / issues
     @GetMapping("/issues")
     fun showList(model: Model): String {

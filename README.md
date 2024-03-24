@@ -7,6 +7,8 @@
 - Spring Web
 - Thymeleaf
 - Spring-Boot-DevTools
+- H2 Data Base
+- My Batis
 
 
 ### Architecture
