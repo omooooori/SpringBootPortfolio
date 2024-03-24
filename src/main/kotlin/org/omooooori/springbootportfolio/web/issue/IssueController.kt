@@ -7,9 +7,10 @@ import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.GetMapping
 
 @Controller
-class IssueController {
+class IssueController(
+    private val issueService: IssueService = IssueService()
+) {
 
-    val issueService: IssueService = IssueService()
 
     // GET / issues
     @GetMapping("/issues")

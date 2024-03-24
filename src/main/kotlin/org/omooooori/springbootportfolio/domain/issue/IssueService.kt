@@ -1,5 +1,8 @@
 package org.omooooori.springbootportfolio.domain.issue
 
+import org.springframework.stereotype.Service
+
+@Service
 class IssueService {
     fun findAll(): List<Issue> {
         return listOf(
