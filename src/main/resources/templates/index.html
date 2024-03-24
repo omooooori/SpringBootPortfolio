@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>TOP | Issue Management Application</title>
 </head>
 <body>
 <h1>Issue Management Application</h1>
+<ul>
+    <li>
+        <a href="./issues/list.html" th:href="@{/issues}">Issue List</a>
+    </li>
+</ul>
 </body>
 </html>

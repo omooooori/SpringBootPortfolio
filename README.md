@@ -7,3 +7,8 @@
 - Spring Web
 - Thymeleaf
 - Spring-Boot-DevTools
+
+
+### Architecture
+
+MVC
