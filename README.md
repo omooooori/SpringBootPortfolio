@@ -5,5 +5,5 @@
 ### Dependencies
 
 - Spring Web
-
-
+- Thymeleaf
+- Spring-Boot-DevTools
