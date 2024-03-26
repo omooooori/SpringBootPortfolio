@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Issue Create Page</title>
+</head>
+<body>
+<h1>Issue Create</h1>
+<form action="#" th:action="@{/issues}" th:method="post" th:object="${issueForm}">
+    <div>
+        <label for="summaryInput">summary</label>
+        <input type="text" id="summaryInput" th:field="*{summary}">
+    </div>
+    <div>
+        <label for="descriptionInput">description</label>
+        <textarea id="descriptionInput" th:field="*{description}" rows="10"></textarea>
+    </div>
+    <div>
+        <button type="submit">CREATE</button>
+    </div>
+</form>
+</body>
+</html>

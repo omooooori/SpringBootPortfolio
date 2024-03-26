@@ -5,8 +5,9 @@
 ### Dependencies
 
 - Spring Web
-- Thymeleaf
+- Spring-boot-starter-validation
 - Spring-Boot-DevTools
+- Thymeleaf
 - H2 Data Base
 - My Batis
 
